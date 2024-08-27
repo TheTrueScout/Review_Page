@@ -3,6 +3,8 @@ body {
   max-height: 100vh;
   padding: 5% 8% 5% 8%;
   font-family: League Spartan;
+  margin: 0;
+  height: 100%;
 }
 
 h1 {
@@ -28,29 +30,38 @@ p{
 
   /* mobile background styles */
 .bg-top-mobile {
-  position: fixed;
   opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 33%;
 }
 .bg-bottom-mobile {
-  position: fixed;
+  position: absolute;
   opacity: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
 }
   /* end of mobile background styles */
 
   /* Desktop Background styles */
 .bg-top-desktop {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   max-width: 36%;
   height: 42%;
 }
 .bg-bottom-desktop {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   max-width: 70%;
-  height: 82%;
+  height: 82vh;
 }
 
 
@@ -188,6 +199,7 @@ p{
 @media only screen and (max-width: 425px) {
   .bg-top-mobile {
     opacity: 1;
+
   }
   .bg-bottom-mobile {
     opacity: 1;
