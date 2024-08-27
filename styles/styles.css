@@ -200,6 +200,61 @@ p{
   }
 }
 
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .summary-container p {
+    font-size: 17px;
+  }
+
+  .star-review-container {
+    height: 60px;
+    padding-left: 25px;
+  }
+
+  .top-half {
+    margin-bottom: 65px;
+  }
+
+  .star-spacing-sizing img {
+    width: 19px;
+    height: 18px;
+  }
+  .star-spacing-sizing {
+    gap: 10px;
+  }
+
+  .review-box {
+    height: 200px;
+    padding: 28px 38px 0 38px;
+  }
+
+  .main-review-container {
+    height: 260px;
+  }
+
+  .buyer-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 23px;
+  }
+
+  .name-verified p {
+    line-height: 20px;
+  }
+}
+
   /* 1366 by 768 screens */
   @media screen and (min-width: 1366px) {
     h1 {
