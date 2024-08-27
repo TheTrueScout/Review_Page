@@ -42,8 +42,8 @@ p{
   position: fixed;
   left: 0;
   top: 0;
-  max-width: 45%;
-  height: 45%;
+  max-width: 36%;
+  height: 42%;
 }
 .bg-bottom-desktop {
   position: fixed;
@@ -104,6 +104,11 @@ p{
 .star-spacing-sizing img {
   width: 15px;
   height: 14px;
+}
+
+.star-spacing-sizing {
+  display: flex;
+  gap: 5px;
 }
 
 .star-review-alignment2 {
@@ -180,11 +185,86 @@ p{
 }
 
   /* Mobile design */
-@media only screen and (max-width= 425px) {
+@media only screen and (max-width: 425px) {
   .bg-top-mobile {
     opacity: 1;
   }
   .bg-bottom-mobile {
     opacity: 1;
   }
+  .bg-bottom-desktop {
+    opacity: 0;
+  }
+  .bg-top-desktop {
+    opacity: 0;
+  }
 }
+
+  /* 1920 by 1080 screens */
+  @media only screen and (min-width: 1920px), only screen and (min-height: 1080px) {
+
+          p {
+            font-size: 24px;
+            line-height: 40px;
+          }
+
+          .summary-container p {
+            font-size: 27px;
+            
+          }
+
+          .top-half {
+            margin-bottom: 100px;
+          }
+
+          h1 {
+            font-size: 70px;
+          }
+
+          h2 {
+            font-size: 30px;
+          }
+
+          .main-review-container {
+            height: 400px;
+          }
+          .review-box {
+            height: 340px;
+            padding: 40px 49px 0 49px;
+          }
+
+          .buyer-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+
+          }
+
+          .name-verified p {
+            line-height: 30px;
+          }
+
+          .star-review-container {
+            height: 90px;
+            margin-bottom: 25px;
+            padding-left: 35px;
+            gap: 35px;
+            border-radius: 10px;
+          }
+
+          .star-spacing-sizing img {
+            width: 25px;
+            height: 24px;
+            
+          }
+
+          .star-spacing-sizing {
+            gap: 15px;
+          }
+
+          
+            
+          
+        } 
+
+
